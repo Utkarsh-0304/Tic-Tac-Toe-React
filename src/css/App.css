@@ -76,7 +76,7 @@ ul {
 .status {
   /* border: 1px red solid; */
   margin-top: 1rem;
-  color: red;
+  color: white;
   width: auto;
   font-size: 1rem;
 }
@@ -86,7 +86,14 @@ ul {
 }
 
 .game-info {
+  color: white;
   margin-left: 20px;
+}
+
+.game-info button {
+  padding: 5px;
+  color: white;
+  background-color: #0077b6;
 }
 
 .app {
@@ -96,4 +103,14 @@ ul {
   flex-direction: column;
   /* border: red solid 2px; */
   width: 100vw;
+}
+
+.header {
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  border: solid white 2px;
+  border-radius: 5px;
+  margin-bottom: 3rem;
+  padding: 1rem;
 }
